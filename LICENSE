@@ -4,7 +4,7 @@ project are licensed under the GNU Affero General Public License v3
 this document.
 The copyright holders are indicated at the top of each file.
 
-The project is using the following libraries :
+The project is using the following libraries, sdk or portions of code:
 - mdebtls, licensed under Apache-2.0 and GPL-2.0-or-later licenses,
   https://github.com/Mbed-TLS/mbedtls
 - tinyUSB, licensed under the MIT License,

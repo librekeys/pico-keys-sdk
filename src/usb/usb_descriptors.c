@@ -28,10 +28,10 @@
 #include "usb.h"
 
 #ifndef USB_VID
-#define USB_VID   0x2E8A
+#define USB_VID   0x1D50
 #endif
 #ifndef USB_PID
-#define USB_PID   0x10FD
+#define USB_PID   0x619B
 #endif
 
 #if defined(PICO_PLATFORM) || defined(ESP_PLATFORM)

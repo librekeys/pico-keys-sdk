@@ -214,7 +214,7 @@ enum
   VENDOR_REQUEST_WEBUSB = 1,
   VENDOR_REQUEST_MICROSOFT = 2
 };
-#define URL  "www.github.com/librekeys"
+#define URL  "www.librekeys.org"
 static bool web_serial_connected = false;
 
 const tusb_desc_webusb_url_t desc_url =
@@ -319,7 +319,7 @@ uint8_t const *tud_descriptor_bos_cb(void) {
 char *string_desc_itf[4] = {0};
 char const *string_desc_arr [] = {
     (const char[]) { 0x09, 0x04 }, // 0: is supported language is English (0x0409)
-    "Libre Keys",                      // 1: Manufacturer
+    "LibreKeys",                      // 1: Manufacturer
     "Pico Key",                       // 2: Product
     "11223344",                      // 3: Serials, should use chip ID
     "Config"               // 4: Vendor Interface

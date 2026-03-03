@@ -318,11 +318,11 @@ uint8_t const *tud_descriptor_bos_cb(void) {
 // array of pointer to string descriptors
 char *string_desc_itf[4] = {0};
 char const *string_desc_arr [] = {
-    (const char[]) { 0x09, 0x04 }, // 0: is supported language is English (0x0409)
-    "LibreKeys",                      // 1: Manufacturer
-    "LibreKeys security key",         // 2: Product
-    "11223344",                      // 3: Serials, should use chip ID
-    "Config"               // 4: Vendor Interface
+    (const char[]) { 0x09, 0x04 }, // 0: Supported language : English (0x0409)
+    "LibreKeys",                   // 1: Manufacturer
+    "One",                         // 2: Product
+    "11223344",                    // 3: Serials, should use chip ID
+    "Config"                       // 4: Vendor Interfaces
     , "HID Interface"
     , "HID Keyboard Interface"
     , "CCID OTP FIDO Interface"
